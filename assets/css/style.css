@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 144rem;
+    
+}
+.logo img{
+    width: 11.1rem;
+    height: 14.2rem;
+}
+.header-box{
+    display: flex;
+    width: 144rem;
+    height: 91.8rem;
+    background-image: url(../img/bcheader.jfif);
+    background-repeat: no-repeat;
+    padding: 0 7rem;
+    flex-wrap: wrap;
+   
+}
+
+.header{
+    display: flex;
+    width: 129.9rem;
+    height: 14.2rem;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.navbar-box ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 2rem;
+}
+.header a{
+    color: #fff;
+}
+.navbar-box span{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fff;
+}
+
+.mashrut{
+    width: 64.4rem;
+    height: 46.4rem;
+    color: #fff;
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mashrut h1{
+    font-size: 7rem;
+}
+.mashrut .btn{
+    width: 27.4rem;
+    height: 5.5rem;
+    background-color: #037E8C;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mashrut .btn a{
+    color: #fff;
+}
+.mashrut .btn i{
+    width: 3.1rem;
+    height: 3.1rem;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* info bar start */
+.info{
+    width: 130rem;
+    height: 17.1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+.inMash{
+    width: 30.2rem;
+    height: 17.1rem;
+}
+.info .scroll{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #037E8C;
+    border-radius: 50%;
+    left: 0rem;
+}
+.inMash .inLog img{
+    z-index: 2;
+    right: 2px;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.inLog{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.inMot{
+    width: 30.2rem;
+    height: 17.1rem;
+}
+.inCas{
+    width: 30.2rem;
+    height: 17.1rem;
+}
+.inInst{
+    width: 30.2rem;
+    height: 17.1rem;
+}
+.inMot img{
+    width: 4.8rem;
+    height: 3.2rem;
+}
+.inInst img{
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+/* info bar end */
+
+/* departure box start */
+.departure{
+    padding-left: 7rem;
+    background-image: url(../img/fon.png);
+    padding: 1rem 7rem;
+    
+}
+.departure .tit{
+    text-align: center;
+    font-size: 3.6rem;
+    width: 130rem;
+    margin: 5rem 0;
+}
+.dep-left{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 63.5rem;
+    height: 39.4rem;
+}
+.dep-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dep-info .time span{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.7rem;
+    padding: .5rem 0;
+    align-items: center;
+}
+.dep-info .time span i{
+    padding-right: 1rem;
+    font-size: 1.4rem;
+}
+.price h1{
+    font-size: 3.6rem;
+}
+.price h3{
+    font-size: 2.4rem;
+}
+.price i{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+.location h3{
+    font-size: 1.8rem;
+}
+.location img{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: black;
+}
+.location p{
+    font-size: 1.4rem;
+    width: 52.4rem;
+    padding: 0 5rem 1rem 0;
+}
+.line{
+    width: 8.1rem;
+    max-height: 0.1rem;
+    background-color: #037E8C;
+    border: 0.4rem solid #037E8C;
+    margin: 1.7rem 2rem 0 0;
+}
+.dep-info h3, .fa-solid, .fa-clock{
+    display: inline-block;    
+}
+.dep-btn{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dep-btn a{
+    width: 17.5rem;
+    height: 4.5rem;
+    border: .2rem solid #037E8C;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    color: #037E8C;
+}
+
+/* right */
+.dep-box{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 39.4rem;
+    margin: 5rem 0;
+}
+.img-box{
+    display: flex;
+    align-items: center;
+}
+.img-box img{
+    width: 36rem;
+    height: 36rem;
+}
+.img-box .img2{
+    width: 25rem;
+    height: 30rem;
+    margin: 1rem;
+}
+.dep-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+/* dots */
+.dots{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.dots2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    float: right;
+}
+.dot{
+    width: .8rem;
+    height: .8rem;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.dot-line{
+    width: 5.4rem;
+    height: 0;
+    border: 0.1rem solid black;
+    margin: 0 1rem 0  2rem;
+}
+/* departure box end */
+
+
+/* about loc start */
+.about-loc{
+    width: 144rem;
+    height: 35.2rem;
+    font-size: 1.8rem;
+    background-image: url(../img/mask.png);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+.about-loc button{
+    width: 17.5rem;
+    height: 4.5rem;
+    background-color: #037E8C;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+}
+.about-loc button a{
+    color: #fff;
+}
+
+/* about loc end */
