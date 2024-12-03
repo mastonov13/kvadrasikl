@@ -254,6 +254,11 @@ a{
     margin: 0 2rem;
 }
 
+.dep-right .rig{
+    position: relative;
+    width: 63rem;
+}
+
 /* dots */
 .dots{
     display: flex;
@@ -264,7 +269,8 @@ a{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    float: right;
+    right: 0rem;
+    position: absolute;
 }
 .dot{
     width: .8rem;
@@ -307,3 +313,33 @@ a{
 }
 
 /* about loc end */
+
+/* foto scroll start */
+.foto-scrol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.f-scrol img{
+    width: 41.3rem;
+    height: 41.3rem;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+/* foto scroll end */
+
+/* video box start */
+.video-box{
+    background-image: url(../img/bcvid.jfif);
+    width: 144rem;
+    height: 59.4rem;
+    background-repeat: no-repeat;
+}
+.video-box img{
+    width: 107.8rem;
+    height: 43rem;
+    border: 0.5rem solid #fff;
+    border-radius: 1rem;
+}
+/* video box end */
