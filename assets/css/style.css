@@ -326,6 +326,7 @@ a{
     height: 41.3rem;
     margin: 2rem;
     border-radius: 1rem;
+    background-size: cover;
 }
 /* foto scroll end */
 
@@ -335,11 +336,25 @@ a{
     width: 144rem;
     height: 59.4rem;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 2rem 0;
 }
-.video-box img{
+.video-box .v-box{
     width: 107.8rem;
     height: 43rem;
     border: 0.5rem solid #fff;
     border-radius: 1rem;
+    background-image: url(../img/video.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 8.13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* video box end */
